@@ -1,0 +1,35 @@
+.picker {
+  background: #111;
+  color: #fff;
+  padding: 1rem;
+  border: 2px solid #ff0055;
+  font-family: 'Press Start 2P', monospace;
+  max-width: 600px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.traits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.trait {
+  padding: 0.4rem 0.8rem;
+  background: #222;
+  color: #fff;
+  border: 1px solid #555;
+  cursor: pointer;
+}
+
+.trait.selected {
+  background: #ff0055;
+  border-color: #fff;
+}
+
+.actions {
+  margin-top: 1rem;
+}

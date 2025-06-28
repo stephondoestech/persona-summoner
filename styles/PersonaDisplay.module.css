@@ -1,0 +1,26 @@
+.card {
+  background: #111;
+  color: #fff;
+  padding: 1.5rem;
+  border: 2px solid #ff0055;
+  font-family: 'Press Start 2P', monospace;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.card img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  margin: 1rem 0;
+}
+
+.exportButton {
+  background: #ff0055;
+  color: #fff;
+  font-family: 'Press Start 2P', monospace;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+}
